@@ -1,10 +1,13 @@
 PROJECT PROPOSAL (SYNOPSIS)
+
  Fitastic. A Web-Based Application for staying fit. Use Fitastic stay Fantastic
   1. Title of the Project Fitastic - use Fitastic stay Fantastic 2. Introduction and Objectives of the Project
   2.1 Introduction
    A Web-Based Application for staying fit by keeping Track of Calorie Intake , Workout Activity Logging, Diet Suggestions, and Progress Monitoring, intended to bring these basic tracking activities together in one place. The application will allow users to create a profile, record food items and serving quantities, log physical activities with their duration, and view summaries of estimated calories consumed and calories burned through recorded exercise. It will also maintain a history of entries and display simple progress information, such as weekly activity summaries and user-entered weight changes. Basic diet suggestions will be shown from a predefined list of food or meal options. 
 
    2.2 Objectives
+
+   
       ●  To develop a web application for recording daily food intake and estimating calorie consumption.
      ● To allow users to log physical activities, including activity type and duration, and estimate calories burned.
       ●  To maintain basic user profile information and a history of meal, workout, and weight entries. 
@@ -12,10 +15,14 @@ PROJECT PROPOSAL (SYNOPSIS)
       ●  To practise full-stack development, API design, database operations, input validation, and software testing. 
 
       3.Type of Project
+
+      
        Project Type: Web-Based Application 
        Project Category: Fitness and Health Management System Technology: MERN Stack 
 
        4.TOOLS 
+
+       
        FrontEnd: HTML, CSS, JavaScript, React.js
       BackEnd:Node.js, Express.js
        Database: MongoDB
@@ -24,6 +31,9 @@ PROJECT PROPOSAL (SYNOPSIS)
          Version Control: Git and GitHub 
 
          5. Hardware and Software Requirement Specification(SRS)/Environment Used 
+
+
+         
          5.1 Hardware Requirements
         ●  Processor: Intel Core i3 equivalent or above
         ●  RAM: Minimum 4 GB (8 GB recommended)
@@ -42,6 +52,8 @@ PROJECT PROPOSAL (SYNOPSIS)
          ●  Git for version control. 
 
          6.Number of Modules and their details 
+
+         
           Module 1: User Profile
            Stores basic profile details and preferences needed for the application. It may include name, age, height, weight, and a user-selected daily calorie target. 
 
@@ -55,6 +67,8 @@ PROJECT PROPOSAL (SYNOPSIS)
             Shows meal and activity history, daily or weekly summaries. It also displays simple meal ideas from a predefined dataset. Suggestions are general information and are not intended as medical nutrition plans. 
 
             7.Bibliography and References
+
+            
 
             1.  React. “Quick Start.” React Documentation.  https://react.dev/learn 
             2.   Node.js. “Introduction to Node.js.” Node.js Documentation. https://nodejs.org/en/learn 
