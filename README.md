@@ -2,6 +2,8 @@ PROJECT PROPOSAL (SYNOPSIS)
 
  Fitastic. A Web-Based Application for staying fit. Use Fitastic stay Fantastic
   1. Title of the Project Fitastic - use Fitastic stay Fantastic 2. Introduction and Objectives of the Project
+ 
+  
   2.1 Introduction
    A Web-Based Application for staying fit by keeping Track of Calorie Intake , Workout Activity Logging, Diet Suggestions, and Progress Monitoring, intended to bring these basic tracking activities together in one place. The application will allow users to create a profile, record food items and serving quantities, log physical activities with their duration, and view summaries of estimated calories consumed and calories burned through recorded exercise. It will also maintain a history of entries and display simple progress information, such as weekly activity summaries and user-entered weight changes. Basic diet suggestions will be shown from a predefined list of food or meal options. 
 
