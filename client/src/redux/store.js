@@ -1,3 +1,4 @@
+
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
 import {
   persistStore,
@@ -9,8 +10,22 @@ import {
   PURGE,
   REGISTER,
 } from "redux-persist";
-import storage from "redux-persist/lib/storage";
 import userReducer from "./reducers/userSlice";
+
+// Use browser localStorage directly.
+const storage = {
+  getItem: (key) => Promise.resolve(window.localStorage.getItem(key)),
+
+  setItem: (key, value) => {
+    window.localStorage.setItem(key, value);
+    return Promise.resolve(value);
+  },
+
+  removeItem: (key) => {
+    window.localStorage.removeItem(key);
+    return Promise.resolve();
+  },
+};
 
 const persistConfig = {
   key: "root",
@@ -29,9 +44,17 @@ export const store = configureStore({
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
       serializableCheck: {
-        ignoreActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+        ignoredActions: [
+          FLUSH,
+          REHYDRATE,
+          PAUSE,
+          PERSIST,
+          PURGE,
+          REGISTER,
+        ],
       },
     }),
 });
 
 export const persistor = persistStore(store);
+
