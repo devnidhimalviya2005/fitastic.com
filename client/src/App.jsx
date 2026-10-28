@@ -25,7 +25,7 @@ function App() {
   return (
     <ThemeProvider theme={lightTheme}>
       <BrowserRouter>
-        {currentUser ? (
+       {currentUser ? (
           <Container>
             <Navbar currentUser={currentUser} />
             <Routes>
@@ -38,6 +38,7 @@ function App() {
             <Authentication />
           </Container>
         )}
+      
       </BrowserRouter>
     </ThemeProvider>
   );
