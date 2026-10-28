@@ -14,10 +14,11 @@ body {
 ::-webkit-scrollbar {
   width: 2px;
 }
-/* Track */
+/* Track 
 ::-webkit-scrollbar-track {
-}
-
+    
+} just for now commenting out
+*/
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888;
